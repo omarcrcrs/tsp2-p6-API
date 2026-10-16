@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Búho propio (estado "cargando"): dibujado a mano con formas simples. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Orejas -->
+    <path
+        android:fillColor="#4A6076"
+        android:pathData="M18,20 L10,34 L28,34 Z" />
+    <path
+        android:fillColor="#4A6076"
+        android:pathData="M82,20 L90,34 L72,34 Z" />
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#4A6076"
+        android:pathData="M12,52 a38,38 0 1,0 76,0 a38,38 0 1,0 -76,0 Z" />
+    <!-- Ojos (fondo) -->
+    <path
+        android:fillColor="#F4F1E8"
+        android:pathData="M19,52 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0 Z" />
+    <path
+        android:fillColor="#F4F1E8"
+        android:pathData="M51,52 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0 Z" />
+    <!-- Pupilas -->
+    <path
+        android:fillColor="#1C2630"
+        android:pathData="M27,52 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z" />
+    <path
+        android:fillColor="#1C2630"
+        android:pathData="M59,52 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z" />
+    <!-- Pico -->
+    <path
+        android:fillColor="#E8A33D"
+        android:pathData="M45,62 L55,62 L50,74 Z" />
+</vector>
